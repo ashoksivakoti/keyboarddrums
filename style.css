@@ -1,0 +1,127 @@
+html {
+    font-size: 10px;
+    background: url('images/background.jpeg') bottom center;
+    background-size: cover;
+    background-position: 50%;
+  
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .5rem solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 0.1s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  
+  .playing {
+    transform: scale(1.3);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 6rem;
+    opacity: 0.8;
+  
+  
+  }
+  .tittle{
+    color: white;
+    text-align: center;
+    font-size: 1cm;
+    font-weight: bolder;
+    opacity: 0.9;
+  }
+  .keyboard{
+    color: #FFFF00;
+    font-size: 30px;
+    font-family: monospace;
+    opacity: 1;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
+  
+  .a {
+    background: url('images/clap.jpeg');
+    background-size: cover;
+  
+  }
+  
+  .s {
+    background: url('images/hithat.jpeg');
+    background-size: cover;
+  
+  }
+  
+  .d {
+    background: url('images/kick.jpeg');
+    background-size: cover;
+  
+  }
+  
+  .f {
+    background: url('images/openhat.jpeg');
+    background-size: cover;
+  
+  }
+  
+  .g {
+    background: url('images/boom.jpeg');
+    background-size: cover;
+  
+  }
+  
+  .h {
+    background: url('images/ride.jpeg');
+    background-size: cover;
+  
+  }
+  
+  .j {
+    background: url('images/snare.png');
+    background-size: cover;
+  
+  }
+  
+  .k {
+    background: url('images/tom.jpeg');
+    background-size: cover;
+  
+  }
+  
+  .l {
+    background: url('images/tink.jpeg');
+    background-size: cover;
+  
+  }
+  
